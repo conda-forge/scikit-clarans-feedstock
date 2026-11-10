@@ -1,6 +1,6 @@
 context:
   name: scikit-clarans
-  version: "0.4.0"
+  version: "0.4.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/scikit_clarans-${{ version }}.tar.gz
-  sha256: edc4f5917d4d03ef46324479c43893de717e86f461b2751270059bfa99f1cac0
+  sha256: 798a4fafc9d991dd6f3909d1958b391837b71442a36603b277ea986d2f2174d5
 
 build:
-  number: 1
+  number: 0
   script: ${{ PYTHON }} -m pip install . -vv --no-build-isolation --no-deps
 
 requirements:
@@ -42,7 +42,7 @@ tests:
 
 about:
   homepage: https://github.com/ThienNguyen3001/scikit-clarans
-  summary: A scikit-learn compatible implementation of CLARANS clustering algorithm
+  summary: Scikit-learn compatible implementation of CLARANS and FastCLARANS for k-medoids clustering
   license: MIT
   license_file: LICENSE
   documentation: https://scikit-clarans.readthedocs.io/
