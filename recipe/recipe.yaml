@@ -42,7 +42,7 @@ tests:
 
 about:
   homepage: https://github.com/ThienNguyen3001/scikit-clarans
-  summary: A scikit-learn compatible implementation of CLARANS clustering algorithm
+  summary: Scikit-learn compatible implementation of CLARANS and FastCLARANS for k-medoids clustering
   license: MIT
   license_file: LICENSE
   documentation: https://scikit-clarans.readthedocs.io/
