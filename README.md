@@ -7,7 +7,7 @@ Home: https://github.com/ThienNguyen3001/scikit-clarans
 
 Package license: MIT
 
-Summary: A scikit-learn compatible implementation of CLARANS clustering algorithm
+Summary: Scikit-learn compatible implementation of CLARANS and FastCLARANS for k-medoids clustering
 
 Development: https://github.com/ThienNguyen3001/scikit-clarans
 
