@@ -1,6 +1,6 @@
 context:
   name: scikit-clarans
-  version: "0.4.2"
+  version: "0.4.3"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/scikit_clarans-${{ version }}.tar.gz
-  sha256: 4dfe91b96796b145534e9bee5868e8816130b01aea63c0875c91ff36a7cd93ab
+  sha256: 5865ce3b29800639ac136501e5b0ce37e795fd43e870671e2329275930b17f23
 
 build:
   number: 0

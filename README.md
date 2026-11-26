@@ -246,6 +246,3 @@ Feedstock Maintainers
 
 * [@ThienNguyen3001](https://github.com/ThienNguyen3001/)
 
-
-<!-- dummy commit to enable rerendering -->
-
